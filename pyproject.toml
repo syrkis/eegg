@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "eegg"
+version = "0.1.0"
+description = ""
+authors = ["Noah Syrkis <noah@syrkis.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.12"
+jax = "^0.4.37"
+numpy = "<2"
+ollama = "^0.4.4"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+torchaudio = "^2.5.1"
+jupyterlab = "^4.3.3"
+pyyaml = "^6.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
