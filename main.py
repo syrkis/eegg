@@ -39,7 +39,7 @@ def god_fn(
 
 
 def ova_fn(
-    messages, observation, reward, terminated, truncated
+    observation, reward, terminated, truncated
 ) -> int:  # three leter word for agent inside an egg (also name for collection of cells in an egg)
     return 0
 
